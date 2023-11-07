@@ -1,0 +1,28 @@
+
+    /* CSS to apply CSS Grid layout */
+    .old-form {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .form-group {
+        display: contents; /* Removes extra container divs */
+    }
+
+    .old-form label {
+        grid-column: 1;
+    }
+
+    .old-form input,
+    .old-form textarea {
+        grid-column: 1;
+        width: 100%;
+    }
+
+    button[type="submit"] {
+        grid-column: 1;
+        justify-self: center;
+    }
+
+    
